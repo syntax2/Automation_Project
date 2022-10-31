@@ -1,4 +1,4 @@
-s3_bucket="s3://upgrad-ashish"
+s3_bucket="upgrad-ashish"
 timestamp=$(date '+%d%m%Y-%H%M%S') 
 myname="ashish"
 
