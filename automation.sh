@@ -22,6 +22,7 @@ tar -cvf ../../tmp/${myname}-httpd-logs-${timestamp}.tar /../../var/log/apache2
 aws s3 \
 cp /tmp/${myname}-httpd-logs-${timestamp}.tar \
 s3://${s3_bucket}/${myname}-httpd-logs-${timestamp}.tar 
+filename="$myname-httpd-log-$timestamp.tar"
 
 inventory=/var/www/html/inventory.html
 log="httpd-logs"
