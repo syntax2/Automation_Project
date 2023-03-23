@@ -1,5 +1,4 @@
 # Automation_Project
-this is for my upgrad assignment.
 this automation script does the following things in the following order:
 1. update all the existing packages
 2. install the apache2 server if it is not already installed
